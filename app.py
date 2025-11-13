@@ -1,4 +1,6 @@
 import os
+os.environ["TFLITE_DISABLE_XNNPACK"] = "1"
+
 import io
 import json
 import numpy as np
